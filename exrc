@@ -1,0 +1,9 @@
+set number
+set ruler
+set showmode
+set tabstop=8
+set shiftwidth=8
+set wrapmargin=0
+set noshowmatch
+set ignorecase
+set autoindent
