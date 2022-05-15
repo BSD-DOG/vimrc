@@ -255,7 +255,7 @@ endif
 " Read the file again, if it's changed externally, by another program
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-set updatetime=500
+set updatetime=3000
 set autoread | au CursorHold * checktime | call feedkeys("lh")
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

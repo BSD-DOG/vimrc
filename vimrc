@@ -67,7 +67,7 @@ if has("statusline")
 	highlight User1 ctermfg=red ctermbg=black guifg=red guibg=black
 endif
 
-set updatetime=500
+set updatetime=3000
 set autoread | au CursorHold * checktime | call feedkeys("lh")
 
 if has("gui_running")
